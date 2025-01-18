@@ -26,3 +26,26 @@ header > .interface{
     align-items: center;
     justify-content: space-between;
 }
+
+header a{
+    color: #10008f;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 550;
+    background-color: #10008f;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+}
