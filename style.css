@@ -28,7 +28,6 @@ header > .interface {
 }
 
 header a {
-    color: #1e00ff;
     text-decoration: none;
     display: inline-block;
     transition: .3s;
@@ -57,4 +56,10 @@ header .btn-contato button {
     border-radius: 10px;
     color: #fff;
     cursor: pointer;
+}
+
+/*Ajustando o tamanho do logotipo*/
+.logo img {
+    max-width: 250px;
+    height: auto;
 }
