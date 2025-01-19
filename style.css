@@ -11,7 +11,7 @@ body{
     height: 100vh;
 }
 
-.interface{
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -21,14 +21,22 @@ header{
     padding: 40px 4%;
 }
 
-header > .interface{
+header > .interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header a{
+header a {
+    color: #1e00ff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover {
     color: #10008f;
+    transform: scale(1.07);
 }
 
 header nav ul {
@@ -48,4 +56,5 @@ header .btn-contato button {
     border: 0;
     border-radius: 10px;
     color: #fff;
+    cursor: pointer;
 }
